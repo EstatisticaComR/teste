@@ -1,0 +1,25 @@
+---
+title: "Sequencia de Fibonacci"
+author: "Lyncoln Oliveira"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Sequencia de Fibonacci}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Sequencia de Fibonacci.
+
+Esse pacote retorna um vetor com x elementos da sequencia de Fibonacci
+ou retorna o elemento da posicao x da mesma.
+
+```{r}
+library(teste)
+
+x=sample(20,1)
+fibonacci(x)
+fibonacci(x,arg=F)
+```
+
+

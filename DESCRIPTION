@@ -1,0 +1,15 @@
+Package: teste
+Title: Sequência de Fibonacci
+Version: 0.0.0.9000
+Authors@R: person("Lyncoln", "Oliveira", email = "lyncolnsousa@id.uff.br", role = c("aut", "cre"))
+Description: Pacote feito para criar uma sequência de Fibonacci.
+Depends: R (>= 3.2.1)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
